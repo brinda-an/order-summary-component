@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 98%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  max-width: min-content;
+}
+
+.card-hero {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  max-width: 350px;
+}
+.card-details {
+  padding: 20px 30px 30px 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-heading {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card-info {
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.inner-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inner-card-info {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icon-text {
+  display: flex;
+  flex-direction: row;
+}
+.music-icon {
+  height: 35px;
+}
+
+.inner-card-heading {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.inner-card-cost {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  color: hsl(224, 23%, 55%);
+}
+
+.inner-card-button {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+}
+
+.card-button {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  width: 290px;
+  border: 0;
+  box-shadow: 5px 10px hsl(225, 100%, 98%);
+}
+
+.card-cancel {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+a:active {
+  top: 1px;
+}
+button:active {
+  background-color: blueviolet;
+}
+h4:active {
+  color: red;
+}
